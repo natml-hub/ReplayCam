@@ -1,2 +1,2 @@
 # ReplayCam
-Demo project that shows recording videos in Unity Engine using NatCorder.
+Example illustrating video recording in Unity Engine using NatCorder.
