@@ -25,8 +25,8 @@ namespace NatML.Examples {
         private AudioSource microphoneSource;
 
         private IEnumerator Start () {
-            #if !UNITY_WEBGL
             microphoneSource = gameObject.GetComponent<AudioSource>();
+            #if !UNITY_WEBGL
             microphoneSource.clip = Microphone.Start(null, true, 1, AudioSettings.outputSampleRate);
             yield return new WaitUntil(() => Microphone.GetPosition(null) > 0);
             microphoneSource.Play();
