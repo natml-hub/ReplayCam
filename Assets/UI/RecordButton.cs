@@ -1,5 +1,5 @@
 ﻿/* 
-*   NatCorder
+*   ReplayCam
 *   Copyright (c) 2022 NatML Inc. All Rights Reserved.
 */
 

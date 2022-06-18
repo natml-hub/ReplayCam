@@ -16,6 +16,15 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "ai.natml.natdevice": {
+      "version": "1.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "ai.natml.hub": "1.0.8"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.17",
       "depth": 0,

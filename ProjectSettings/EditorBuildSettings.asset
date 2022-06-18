@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ReplayCam.unity
+    guid: d3534cd9262b64c779e2d78c6ee5a5b1
+  m_configObjects:
+    ai.natml.hub.settings: {fileID: 11400000, guid: cace0979162c44f91a4d5615a6012049, type: 2}
+    ai.natml.natcorder.settings: {fileID: 11400000, guid: 354234cf09abc46309158de62d7a7051, type: 2}
+    ai.natml.natdevice.settings: {fileID: 11400000, guid: 285ce2773360247e3b82873ed8739fa8, type: 2}
